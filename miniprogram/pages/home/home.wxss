@@ -1,0 +1,19 @@
+/* miniprogram/pages/home/home.wxss */
+.container{
+
+}
+
+.banner{
+	height: 420rpx;
+	width: 100%;
+}
+
+.banner swiper{
+	height: 100%;
+	width: 100%;
+}
+
+swiper-item image{
+	height: 100%;
+	width: 100%;
+}

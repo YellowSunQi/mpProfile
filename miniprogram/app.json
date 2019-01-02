@@ -1,0 +1,39 @@
+{
+	"pages": [
+		"pages/home/home",
+		"pages/design/design",
+		"pages/mine/mine"
+	],
+	"window": {
+		"backgroundColor": "#FFFFFF",
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"color": "#BABABA",
+		"selectedColor": "#3A3A3A",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "主页",
+				"iconPath": "images/home.png",
+				"selectedIconPath": "images/home-act.png"
+			},
+			{
+				"pagePath": "pages/design/design",
+				"text": "设计",
+				"iconPath": "images/design.png",
+				"selectedIconPath": "images/design-act.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "images/mine.png",
+				"selectedIconPath": "images/mine-act.png"
+			}
+		]
+	}
+}
