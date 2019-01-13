@@ -51,13 +51,6 @@
 					</view>
 				</view>
 				<view class='listItem'>
-					<image class='number' src='./../../images/1.png'></image>
-					<view class='itemContent'>
-						<view class='itemName'>易物网</view>
-						<view class='itemSort'>移动端APP设计</view>
-					</view>
-				</view>
-				<view class='listItem'>
 					<image class='number' src='./../../images/2.png'></image>
 					<view class='itemContent'>
 						<view class='itemName'>小象直播</view>
