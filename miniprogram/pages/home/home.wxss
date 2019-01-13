@@ -1,19 +1,115 @@
 /* miniprogram/pages/home/home.wxss */
-.container{
 
+.container {
 }
 
-.banner{
-	height: 420rpx;
-	width: 100%;
+.banner {
+   height: 420rpx;
+   width: 100%;
 }
 
-.banner swiper{
-	height: 100%;
-	width: 100%;
+.banner swiper {
+   height: 100%;
+   width: 100%;
 }
 
-swiper-item image{
-	height: 100%;
-	width: 100%;
+swiper-item image {
+   height: 100%;
+   width: 100%;
 }
+
+.content {
+   box-sizing: border-box;
+   padding: 0 32rpx 40rpx;
+   width: 100%;
+}
+
+.introduce {
+   width: 100%;
+}
+
+.title{
+	margin: 40rpx 0;
+	overflow: hidden;
+}
+
+.title .titleIcon {
+	float: left;
+   height: 20rpx;
+   width: 20rpx;
+	margin-top: 18rpx;
+}
+
+.title .titleName {
+   float: left;
+   font-size: 32rpx;
+   color: #3a3a3a;
+   font-weight: 600;
+}
+
+.title .more {
+	float: right;
+   height: 40rpx;
+   width: 40rpx;
+}
+
+.skills{
+	padding: 0 48rpx;
+	display: flex;
+	justify-content: space-between;
+}
+
+.skills .skillsItem{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.skills .skillsItem image{
+	height: 92rpx;
+	width: 92rpx;
+}
+
+.skills .skillsItem text{
+	font-size: 22rpx;
+	color: #3a3a3a;
+}
+
+.introduceContent{
+	display: inline-block;
+	text-align: justify;
+	margin: 62rpx 0 82rpx;
+	font-size: 28rpx;
+	color: #3a3a3a;
+	line-height: 48rpx;
+	overflow: hidden;
+}
+
+.designList{
+	box-sizing: border-box;
+}
+
+.designList .listItem{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-start;
+	padding: 52rpx 0;
+	height: 180rpx;
+}
+
+.listItem .number{
+	height: 76rpx;
+	width: 76rpx;
+} 
+
+.listItem .itemContent .itemName{
+	font-size: 32rpx;
+	letter-spacing: 1rpx;
+	color: #3a3a3a;
+}
+
+.listItem .itemContent .itemSort{
+	font-size: 24rpx;
+	color: #999999;
+}
+

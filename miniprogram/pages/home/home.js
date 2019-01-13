@@ -82,5 +82,17 @@ Page({
     */
    onShareAppMessage: function() {
 
-   }
+   },
+
+	gotoMine(){
+		wx.switchTab({
+			url: './../mine/mine',
+		})
+	},
+
+	gotoDesign() {
+		wx.switchTab({
+			url: './../design/design',
+		})
+	}
 })
