@@ -1,2 +1,93 @@
 <!--miniprogram/pages/design/design.wxml-->
-<text>miniprogram/pages/design/design.wxml</text>
+<view class='container'>
+   <view class='designItem'>
+      <view class='mainImg'>
+         <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/designBanner1.png'></image>
+      </view>
+      <view class='designTitle'>
+         <view class='designName'>易物网</view>
+         <view class='designSort'>App</view>
+      </view>
+      <view class='designDetail'>易物网电商APP界面设计和日常维护</view>
+   </view>
+	<view class='designItem'>
+      <view class='mainImg'>
+         <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/designBanner2.png'></image>
+      </view>
+      <view class='designTitle'>
+         <view class='designName'>小象直播</view>
+         <view class='designSort'>App</view>
+      </view>
+      <view class='designDetail'>小象直播APP界面全新改版和交互设计</view>
+   </view>
+	<view class='designItem'>
+      <view class='mainImg'>
+         <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/designBanner3.png'></image>
+      </view>
+      <view class='designTitle'>
+         <view class='designName'>VINO SOPHY</view>
+         <view class='designSort'>H5</view>
+      </view>
+      <view class='designDetail'>VINO SOPHY公众号商城界面和交互设计</view>
+   </view>
+	<view class='designItem'>
+      <view class='mainImg'>
+         <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/designBanner4.png'></image>
+      </view>
+      <view class='designTitle'>
+         <view class='designName'>JUST匠·舍</view>
+         <view class='designSort'>H5</view>
+      </view>
+      <view class='designDetail'>JUST匠·舍线上预订平台界面和交互设计</view>
+   </view>
+	<view class='designItem'>
+      <view class='mainImg'>
+         <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/designBanner5.png'></image>
+      </view>
+      <view class='designTitle'>
+         <view class='designName'>JUST匠·礼</view>
+         <view class='designSort'>H5</view>
+      </view>
+      <view class='designDetail'>JUST匠·礼线上购买平台界面和交互设计</view>
+   </view>
+	<view class='designItem'>
+      <view class='mainImg'>
+         <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/designBanner6.png'></image>
+      </view>
+      <view class='designTitle'>
+         <view class='designName'>易物网管理系统</view>
+         <view class='designSort'>Web</view>
+      </view>
+      <view class='designDetail'>易物网管理系统界面和交互设计</view>
+   </view>
+	<view class='designItem' bindtap='gotoDetail' data-name="ang">
+      <view class='mainImg'>
+         <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/designBanner7.png'></image>
+      </view>
+      <view class='designTitle'>
+         <view class='designName'>爱牛股</view>
+         <view class='designSort'>App</view>
+      </view>
+      <view class='designDetail'>爱牛股APP界面和交互设计</view>
+   </view>
+	<view class='designItem' bindtap='gotoDetail' data-name="jjtg">
+      <view class='mainImg'>
+         <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/designBanner8.png'></image>
+      </view>
+      <view class='designTitle'>
+         <view class='designName'>巨景投顾</view>
+         <view class='designSort'>H5</view>
+      </view>
+      <view class='designDetail'>巨景投顾公众号界面和交互设计</view>
+   </view>
+	<view class='designItem' bindtap='gotoDetail' data-name="jmf">
+      <view class='mainImg'>
+         <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/designBanner9.png'></image>
+      </view>
+      <view class='designTitle'>
+         <view class='designName'>金蜜蜂官网</view>
+         <view class='designSort'>Web</view>
+      </view>
+      <view class='designDetail'>金蜜蜂官网界面和交互设计</view>
+   </view>
+</view>

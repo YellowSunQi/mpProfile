@@ -37,7 +37,7 @@ swiper-item image {
 	float: left;
    height: 20rpx;
    width: 20rpx;
-	margin-top: 18rpx;
+	margin-top: 13rpx;
 }
 
 .title .titleName {

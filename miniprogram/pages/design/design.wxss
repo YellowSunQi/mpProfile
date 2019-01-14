@@ -1,1 +1,53 @@
 /* miniprogram/pages/design/design.wxss */
+.container{
+	background-color: #f8f8f8;
+	height: 100%;
+}
+
+.designItem{
+	padding: 32rpx 32rpx 50rpx;
+	box-sizing: border-box;
+	height: 585rpx;
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: 20rpx;
+}
+
+.designItem .mainImg{
+	height: 386rpx;
+	width:100%;
+}
+
+.designItem .mainImg image{
+	height: 100%;
+	width: 100%;
+}
+
+.designItem .designTitle{
+	margin-top: 24rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.designItem .designTitle .designName{
+	font-size: 34rpx;
+	font-weight: bold;
+	color: #3a3a3a;
+	letter-spacing: 1rpx;
+	line-height: 48rpx;
+}
+
+.designItem .designTitle .designSort{
+	font-size: 26rpx;
+	color: #ababab;
+	line-height: 36rpx;
+}
+
+.designItem .designDetail{
+	margin-top: 4rpx;
+	font-size: 28rpx;
+	color: #777777;
+	letter-spacing: 1rpx;
+	line-height: 40rpx;
+}

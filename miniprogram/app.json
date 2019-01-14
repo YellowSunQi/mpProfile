@@ -2,7 +2,10 @@
 	"pages": [
 		"pages/home/home",
 		"pages/design/design",
-		"pages/mine/mine"
+		"pages/mine/mine",
+		"pages/detail-ang/detail-ang",
+		"pages/detail-jmf/detail-jmf",
+		"pages/detail-jjtg/detail-jjtg"
 	],
 	"window": {
 		"backgroundColor": "#FFFFFF",
