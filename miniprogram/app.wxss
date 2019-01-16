@@ -1,7 +1,15 @@
 /**app.wxss**/
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
+.container{
+	position: relative;
+}
+
+.container::before {
+  content: "";
+	height: 1px;
+	width: 100%;
+	position: fixed;
+	background-color: #E8E8E8;
+	bottom: top;
+	left: 0;
+	transform: scaleY(0.5)
 } 
