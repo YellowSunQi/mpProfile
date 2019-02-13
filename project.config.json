@@ -28,24 +28,32 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 3,
 			"list": [
 				{
-					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "deginTab",
+					"id": 1,
+					"name": "degin",
 					"pathName": "pages/design/design",
 					"query": ""
 				},
 				{
 					"id": -1,
 					"name": "mine",
-					"pathName": "pages/mine/mine"
+					"pathName": "pages/mine/mine",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "basic",
+					"pathName": "pages/basic/basic",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "job",
+					"pathName": "pages/job/job",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

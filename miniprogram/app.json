@@ -3,9 +3,10 @@
 		"pages/home/home",
 		"pages/design/design",
 		"pages/mine/mine",
-		"pages/detail-ang/detail-ang",
-		"pages/detail-jmf/detail-jmf",
-		"pages/detail-jjtg/detail-jjtg"
+		"pages/basic/basic",
+		"pages/detail/detail",
+		"pages/contact/contact",
+		"pages/job/job"
 	],
 	"window": {
 		"backgroundColor": "#FFFFFF",

@@ -1,4 +1,3 @@
-// miniprogram/pages/design/design.js
 Page({
 
    /**
@@ -69,17 +68,17 @@ Page({
       switch (name) {
          case "ang":
             wx.navigateTo({
-               url: './../detail-ang/detail-ang',
+               url: '/pages/detail-ang/detail-ang',
             })
             break;
          case "jjtg":
             wx.navigateTo({
-					url: './../detail-jjtg/detail-jjtg',
+					url: '/pages/detail-jjtg/detail-jjtg',
             })
             break;
          case "jmf":
             wx.navigateTo({
-					url: './../detail-jmf/detail-jmf',
+					url: '/pages/detail-jmf/detail-jmf',
             })
             break;
       }

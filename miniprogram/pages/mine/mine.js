@@ -62,5 +62,21 @@ Page({
 	 */
 	onShareAppMessage: function () {
 
+	},
+
+	gotoBasic(){
+		wx.navigateTo({
+			url: '/pages/basic/basic',
+		})
+	},
+	gotoJob() {
+		wx.navigateTo({
+			url: '/pages/job/job',
+		})
+	},
+	gotoContact() {
+		wx.navigateTo({
+			url: '/pages/contact/contact',
+		})
 	}
 })

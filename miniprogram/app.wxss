@@ -1,15 +1,16 @@
 /**app.wxss**/
-.container{
+page{
 	position: relative;
 }
 
-.container::before {
+page::before {
   content: "";
 	height: 1px;
 	width: 100%;
 	position: fixed;
+	z-index: 2;
 	background-color: #E8E8E8;
-	bottom: top;
+	top: 0;
 	left: 0;
 	transform: scaleY(0.5)
 } 

@@ -1,4 +1,4 @@
-// miniprogram/pages/detail-ANG/detail-ANG.js
+// miniprogram/pages/job/job.js
 Page({
 
 	/**

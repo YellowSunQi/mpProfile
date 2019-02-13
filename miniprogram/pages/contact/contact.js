@@ -1,4 +1,4 @@
-// miniprogram/pages/detail-JJTG/detail-JJTG.js
+// miniprogram/pages/contact/contact.js
 Page({
 
 	/**

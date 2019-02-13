@@ -3,7 +3,7 @@
 	<view class='top'>
 		<view class='banner'>
 			<view class='avatar'>
-				<image src='./../../images/avatar.png'></image>
+				<image src='/images/avatar.png'></image>
 			</view>
 			<view class='name'>戚芷瑗 Seven</view>
 		</view>
@@ -23,37 +23,37 @@
 		</view>
 	</view>
 	<view class='bottom'>
-		<view class='listItem'>
+		<view class='listItem' bindtap='gotoBasic'>
 			<view class='listLeft'>
 				<view class='icon'>
-					<image src='./../../images/basicIcon.png'></image>
+					<image src='/images/basicIcon.png'></image>
 				</view>
 				<view class='title'>基本信息</view>
 			</view>
 			<view class='more'>
-				<image src="./../../images/rightArrow.png"></image>
+				<image src="/images/rightArrow.png"></image>
 			</view>
 		</view>
-		<view class='listItem'>
+		<view class='listItem' bindtap='gotoJob'>
 			<view class='listLeft'>
 				<view class='icon'>
-					<image src='./../../images/jobIcon.png'></image>
+					<image src='/images/jobIcon.png'></image>
 				</view>
 				<view class='title'>工作经历</view>
 			</view>
 			<view class='more'>
-				<image src="./../../images/rightArrow.png"></image>
+				<image src="/images/rightArrow.png"></image>
 			</view>
 		</view>
-		<view class='listItem'>
+		<view class='listItem' bindtap='gotoContact'>
 			<view class='listLeft'>
 				<view class='icon'>
-					<image src='./../../images/contractIcon.png'></image>
+					<image src='/images/contactIcon.png'></image>
 				</view>
 				<view class='title'>联系方式</view>
 			</view>
 			<view class='more'>
-				<image src="./../../images/rightArrow.png"></image>
+				<image src="/images/rightArrow.png"></image>
 			</view>
 		</view>
 	</view>

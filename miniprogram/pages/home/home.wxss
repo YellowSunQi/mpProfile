@@ -28,16 +28,16 @@ swiper-item image {
    width: 100%;
 }
 
-.title{
-	margin: 40rpx 0;
-	overflow: hidden;
+.title {
+   margin: 40rpx 0;
+   overflow: hidden;
 }
 
 .title .titleIcon {
-	float: left;
+   float: left;
    height: 20rpx;
    width: 20rpx;
-	margin-top: 13rpx;
+   margin-top: 13rpx;
 }
 
 .title .titleName {
@@ -48,68 +48,137 @@ swiper-item image {
 }
 
 .title .more {
-	float: right;
+   float: right;
    height: 40rpx;
    width: 40rpx;
 }
 
-.skills{
-	padding: 0 48rpx;
-	display: flex;
-	justify-content: space-between;
+.skills {
+   padding: 0 48rpx;
+   display: flex;
+   justify-content: space-between;
 }
 
-.skills .skillsItem{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+.skills .skillsItem {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
-.skills .skillsItem image{
-	height: 92rpx;
-	width: 92rpx;
+.skills .skillsItem image {
+   height: 92rpx;
+   width: 92rpx;
 }
 
-.skills .skillsItem text{
-	font-size: 22rpx;
-	color: #3a3a3a;
+.skills .skillsItem text {
+   font-size: 22rpx;
+   color: #3a3a3a;
 }
 
-.introduceContent{
-	display: inline-block;
-	text-align: justify;
-	margin: 62rpx 0 82rpx;
-	font-size: 28rpx;
-	color: #3a3a3a;
-	line-height: 48rpx;
-	overflow: hidden;
+.introduceContent {
+   display: inline-block;
+   text-align: justify;
+   margin: 62rpx 0 82rpx;
+   font-size: 28rpx;
+   color: #3a3a3a;
+   line-height: 48rpx;
+   overflow: hidden;
 }
 
-.designList{
-	box-sizing: border-box;
+.designList {
+   box-sizing: border-box;
 }
 
-.designList .listItem{
-	box-sizing: border-box;
-	display: flex;
-	justify-content: flex-start;
-	padding: 52rpx 0;
-	height: 180rpx;
+.designList .listItem {
+   position: relative;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: flex-start;
+   padding: 52rpx 0;
+   height: 180rpx;
 }
 
-.listItem .number{
-	height: 76rpx;
-	width: 76rpx;
-} 
-
-.listItem .itemContent .itemName{
-	font-size: 32rpx;
-	letter-spacing: 1rpx;
-	color: #3a3a3a;
+.listItem .clickCover {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+	background-position: center center;
+	background-repeat:no-repeat;
+   background-size: cover;
 }
 
-.listItem .itemContent .itemSort{
-	font-size: 24rpx;
-	color: #999999;
+.clickCover.animation {
+   animation: clickCover 400ms linear;
 }
 
+.listItem .number {
+   height: 76rpx;
+   width: 76rpx;
+}
+
+.listItem .itemContent .itemName {
+   font-size: 32rpx;
+   letter-spacing: 1rpx;
+   color: #3a3a3a;
+}
+
+.listItem .itemContent .itemSort {
+   font-size: 24rpx;
+   color: #999;
+}
+
+@keyframes clickCover {
+   0% {
+      height: 0;
+      width: 0;
+   }
+
+   20% {
+      height: 20rpx;
+      width: 20rpx;
+      border-radius: 50%;
+   }
+
+   30% {
+      height: 50rpx;
+      width: 50rpx;
+      border-radius: 50%;
+   }
+
+   40% {
+      height: 90rpx;
+      width: 90rpx;
+      border-radius: 50%;
+   }
+
+	50% {
+      height: 180rpx;
+      width: 40%;
+      border-radius: 10% 10% 10% 10%/90%;
+   }
+
+   60% {
+      height: 180rpx;
+      width: 50%;
+      border-radius: 10% 10% 10% 10%/90%;
+   }
+
+   80% {
+      height: 180rpx;
+      width: 80%;
+      border-radius: 10% 10% 10% 10%/90%;
+   }
+
+	90%{
+		height: 180rpx;
+      width: 100%;
+      border-radius: 0;
+	}
+
+   100% {
+      height: 180rpx;
+      width: 110%;
+      border-radius: 0;
+   }
+}
