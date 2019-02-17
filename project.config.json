@@ -28,7 +28,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 10,
 			"list": [
 				{
 					"id": 1,
@@ -53,6 +53,54 @@
 					"name": "job",
 					"pathName": "pages/job/job",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "xxzb",
+					"pathName": "pages/detail-xxzb/detail-xxzb",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "vs",
+					"pathName": "pages/detail-vs/detail-vs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "yww",
+					"pathName": "pages/detail-yww/detail-yww",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "jjs",
+					"pathName": "pages/detail-jjs/detail-jjs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "jjl",
+					"pathName": "pages/detail-jjl/detail-jjl",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "htgl",
+					"pathName": "pages/detail-htgl/detail-htgl",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "contact",
+					"pathName": "pages/contact/contact",
 					"scene": null
 				}
 			]

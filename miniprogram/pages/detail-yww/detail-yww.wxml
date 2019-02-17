@@ -1,0 +1,56 @@
+<view class="container">
+   <view class='banner'>
+      <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/banner-yww.png' mode='widthFix'></image>
+   </view>
+   <view class='content'>
+      <view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+			<view class='titleName'>竞品分析</view>
+			<view class='subTitle'>/ Analysis For Competition</view>
+      </view>
+		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/ywwcontent1.png' class='contentImg noMargin' mode='widthFix'></image>
+			<view class="contentText">
+			<text>总结：</text>
+			通过对市面上竞品的分析，电商最重要的是保证商品的质量，还有需要有一套成熟的管理服务体系，所以在产品设计上，需要为用户提供流畅便捷的体验，着重强调商品品质。在运营维护上，需要提供有品质保障的商品和贴心完善的服务。
+		</view>
+		 <view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+			<view class='titleName'>产品定位</view>
+			<view class='subTitle'>/ product Positioning</view>
+      </view>
+		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/ywwcontent2.png' class='contentImg noMargin' mode='widthFix'></image>
+		<view class="contentText">
+			易物网是一家以集团大型企业及工厂企业为中心，针对企业内购的互联网平台。为用户提供来自京东自营，易物自营和巨象全球购等国内外优质产品和服务。使命是为大型企业提供优质的商品采购与服务。
+		</view>
+		<view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+			<view class='titleName'>功能架构</view>
+			<view class='subTitle'>/ Functional Framework</view>
+      </view>
+		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/ywwcontent3.png' class='contentImg' mode='widthFix'></image>
+		<view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+			<view class='titleName'>运营设计</view>
+			<view class='subTitle'>/ Operation Design</view>
+      </view>
+		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/ywwcontent4.png' class='contentImg noMargin' mode='widthFix'></image>
+		<view class="contentText">
+			运营位使用文字加插图的形式，丰富页面。运营位设置是可替换的，既提高运营的工作效率又能保持界面工整统一。
+		</view>
+		<view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+			<view class='titleName'>图标设计</view>
+			<view class='subTitle'>/ Icons Design</view>
+      </view>
+		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/ywwcontent5.png' class='contentImg noMargin' mode='widthFix'></image>
+		<view class="contentText">
+			由于页面内出现许多产品图和活动专题，避免造成页面臃肿，Icon大部分使用线性图标，部分页面使用面状图标。在相同功能区Icon保持粗细、圆角和体量一致。
+		</view>
+		<view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+			<view class='titleName'>页面展示</view>
+			<view class='subTitle'>/ Page Display</view>
+      </view>
+		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/ywwcontent6.png' class='contentImg noMargin' mode='widthFix'></image>
+   </view>
+</view>

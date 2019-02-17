@@ -1,0 +1,54 @@
+<view class="container">
+   <view class='banner'>
+      <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/banner-vs.png' mode='widthFix'></image>
+   </view>
+   <view class='content'>
+      <view class="contentText">
+         VINO SOPHY是一家专业权威的红酒供应商。在微信公众号上，我们根据它自身的品牌形象，量身定制了一套商城H5页面供它销售红酒。这套H5除了常规的商城功能外，还增加了入伙会员和口味测试的功能。
+      </view>
+      <view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+         <view class='titleName'>产品需求</view>
+         <view class='subTitle'>/ Product Demand</view>
+      </view>
+      <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/vscontent1.png' class='contentImg' mode='widthFix'></image>
+      <view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+         <view class='titleName'>用户分析</view>
+         <view class='subTitle'>/ User Analysis</view>
+      </view>
+      <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/vscontent2.png' class='contentImg noMargin' mode='widthFix'></image>
+      <view class="contentText typeTwo">
+         对酒消费者数据分析中发现：女性对于葡萄酒的偏好非常明显，其中女性消费占34%，男性消费占25%（数据来源：易知数据、微博数据中心）。
+      </view>
+      <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/vscontent3.png' class='contentImg noMargin' mode='widthFix'></image>
+      <view class="contentText typeTwo">
+         业内多份调查统计数据得出18-35岁的消费者占比超过80%，趋于年轻化。
+      </view>
+      <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/vscontent4.png' class='contentImg' mode='widthFix'></image>
+      <view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+         <view class='titleName'>设计风格</view>
+         <view class='subTitle'>/ Design Style</view>
+      </view>
+      <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/vscontent5.png' class='contentImg' mode='widthFix'></image>
+      <view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+         <view class='titleName'>图标插画</view>
+         <view class='subTitle'>/ Icons Illustrations</view>
+      </view>
+      <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/vscontent6.png' class='contentImg noMargin' mode='widthFix'></image>
+		<view class="contentText typeThree">
+         根据品牌原有的风格和配色设计Icon和插画，有利于加深品牌印象。
+      </view>
+		<view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+         <view class='titleName'>页面展示</view>
+         <view class='subTitle'>/ Page Display</view>
+      </view>
+		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/vscontent7.png' class='contentImg noMargin' mode='widthFix'></image>
+   </view>
+	<view class='bottom'>
+		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/bottom.png' mode='widthFix'></image>
+	</view>
+</view>

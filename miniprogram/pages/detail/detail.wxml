@@ -1,3 +1,4 @@
 <view class="container">
-	<image src="{{mainImg}}" mode="widthFix"></image>
+	<image wx:if="{{!customDetail}}" src="{{mainImg}}" mode="widthFix"></image>
+	<view wx:else>111</view>
 </view>

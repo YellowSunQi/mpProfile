@@ -1,0 +1,39 @@
+<view class="container">
+   <view class='banner'>
+      <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/banner-jjl.png' mode='widthFix'></image>
+   </view>
+   <view class='content'>
+      <view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+         <view class='titleName'>产品简介</view>
+         <view class='subTitle'>/ Product Introduction</view>
+      </view>
+		<view class="contentText">
+         此款应用的入口设置在JUST匠APP中，用户下载app进入应用，在线选购电影并使用会员卡付款。此款运用主要面向企业内购，企业购买会员卡作为福利发放给员工。
+      </view>
+		<view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+         <view class='titleName'>图标设计</view>
+         <view class='subTitle'>/ Icon Design</view>
+      </view>
+      <image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/jjlcontent1.png' class='contentImg noMargin' mode='widthFix'></image>
+      <view class="contentText">
+         由于界面显示内容较多，避免使用户在使用过程中觉得拥挤，所以选择线性图标，使得页面更简洁。
+      </view>
+		<view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+         <view class='titleName'>配色方案</view>
+         <view class='subTitle'>/ Color Schemes</view>
+      </view>
+		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/jjlcontent2.png' class='contentImg noMargin' mode='widthFix'></image>
+		<view class="contentText">
+         客房措施的Icon，使用线性图标给产品带来轻量感，加上小色块点缀，使得图标简约而不简单。
+      </view>
+      <view class='title'>
+         <image src='/images/titleIcon.png' class='titleIcon'></image>
+         <view class='titleName'>页面展示</view>
+         <view class='subTitle'>/ Page Exhibition</view>
+      </view>
+		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/jjlcontent3.png' class='contentImg noMargin' mode='widthFix'></image>
+   </view>
+</view>

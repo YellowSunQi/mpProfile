@@ -1,1 +1,45 @@
-/* miniprogram/pages/contact/contact.wxss */
+.container {
+}
+
+.container .banner {
+   width: 100%;
+}
+
+.banner image {
+   width: 100%;
+}
+
+.contactContent {
+   padding: 0 32rpx;
+}
+
+.contactItem {
+   display: flex;
+   align-items: center;
+   height: 120rpx;
+	position: relative;
+}
+
+.contactItem::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #E8E8E8;
+	height: 1px;
+	width: 100%;
+	transform: scaleY(.5);
+}
+
+.contactItem .title {
+   margin-right: 40rpx;
+   font-size: 28rpx;
+   color: #999;
+   line-height: 40rpx;
+}
+
+.contactItem .content {
+   font-size: 28rpx;
+   color: #3a3a3a;
+   line-height: 40rpx;
+}

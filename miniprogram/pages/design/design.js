@@ -65,22 +65,20 @@ Page({
 
    gotoDetail(e) {
       let name = e.currentTarget.dataset.name;
-      switch (name) {
-         case "ang":
-            wx.navigateTo({
-               url: '/pages/detail-ang/detail-ang',
-            })
-            break;
-         case "jjtg":
-            wx.navigateTo({
-					url: '/pages/detail-jjtg/detail-jjtg',
-            })
-            break;
-         case "jmf":
-            wx.navigateTo({
-					url: '/pages/detail-jmf/detail-jmf',
-            })
-            break;
+		if (name == "jmf" || name == "ang" || name == "jjtg") {
+         wx.navigateTo({
+				url: '/pages/detail/detail?shortName=' + name + '',
+            success: function(res) {},
+            fail: function(res) {},
+            complete: function(res) {},
+         })
+      } else {
+         wx.navigateTo({
+				url: `/pages/detail-${name}/detail-${name}`,
+            success: function(res) {},
+            fail: function(res) {},
+            complete: function(res) {},
+         })
       }
    }
 })

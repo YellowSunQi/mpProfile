@@ -1,4 +1,58 @@
-.container{
-	padding:50rpx 32rpx 100rpx;
+.container {
+   padding: 50rpx 32rpx 100rpx;
 }
 
+.jobItem {
+   display: flex;
+   justify-content: space-between;
+	margin-bottom: 100rpx;
+}
+
+.jobItem:last-of-type{
+	margin-bottom: 0;
+}
+
+.jobItem .left {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   margin-right: 28rpx;
+}
+
+.jobItem .left .titleIcon {
+   margin-top: 50%;
+   transform: translateY(-100%);
+   height: 20rpx;
+   width: 20rpx;
+}
+
+.jobItem .left .logo {
+   vertical-align: middle;
+   height: 128rpx;
+   width: 128rpx;
+}
+
+.jobItem .right .title {
+   color: #3a3a3a;
+   font-size: 32rpx;
+   font-weight: 600;
+   line-height: 44rpx;
+}
+
+.jobItem .right .time {
+	margin-top: 8rpx;
+   color: #888;
+   font-size: 26rpx;
+   line-height: 36rpx;
+}
+
+.jobItem .right .content {
+	margin-top: 10rpx;
+	color: #3a3a3a;
+	font-size: 26rpx;
+	line-height: 44rpx;
+}
+
+.jobItem .right .content.noMargin{
+	margin-top: 0;
+}

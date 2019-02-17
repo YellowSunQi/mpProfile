@@ -1,0 +1,72 @@
+.banner{
+	width: 100%;
+}
+
+.banner image{
+	width: 100%;
+}
+
+.content{
+	box-sizing: border-box;
+	padding: 40rpx 32rpx 110rpx;
+}
+
+.title{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40rpx;
+}
+
+.title image{
+	width: 20rpx;
+	height: 20rpx;
+}
+
+.title .titleName{
+	display: inline;
+	font-size: 32rpx;
+	font-weight: 600;
+	color: #3A3A3A;
+	line-height: 44rpx;
+	margin-right: 10rpx;
+}
+
+.title .subTitle{
+	font-size: 22rpx;
+	line-height: 32rpx;
+	color: #AAAAAA;
+}
+
+.contentImg{
+	width: 100%;
+	margin-bottom: 120rpx;
+}
+
+.contentImg.noMargin{
+	margin-bottom: 0rpx;
+}
+
+.contentText{
+	margin-bottom: 66rpx;
+	font-size: 28rpx;
+	line-height: 48rpx;
+	color: #555555;
+}
+
+.contentText.typeTwo{
+	margin: 60rpx 0;
+}
+
+.contentText.typeThree{
+	margin: 60rpx 0 118rpx;
+}
+
+.bottom{
+	height: auto;
+	width: 100%;
+}
+
+.bottom image{
+	display: block;
+	width: 100%;
+}

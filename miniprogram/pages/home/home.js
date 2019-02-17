@@ -109,12 +109,22 @@ Page({
             canClick: false
          }, () => {
             setTimeout(() => {
-					wx.navigateTo({
-						url: '/pages/detail/detail?shortName=' + this.data.designList[index].shortName + '',
-						success: function (res) { },
-						fail: function (res) { },
-						complete: function (res) { },
-					})
+					if (this.data.designList[index].shortName == "jmf" || this.data.designList[index].shortName == "ang" || this.data.designList[index].shortName == "jjtg"){
+						wx.navigateTo({
+							url: '/pages/detail/detail?shortName=' + this.data.designList[index].shortName + '',
+							success: function (res) { },
+							fail: function (res) { },
+							complete: function (res) { },
+						})
+					}
+					else{
+						wx.navigateTo({
+							url: `/pages/detail-${this.data.designList[index].shortName}/detail-${this.data.designList[index].shortName}`,
+							success: function (res) { },
+							fail: function (res) { },
+							complete: function (res) { },
+						})
+					}
                newList[index].showCover = false;
                this.setData({
                   designList: newList,

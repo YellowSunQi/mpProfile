@@ -6,7 +6,13 @@
 		"pages/basic/basic",
 		"pages/detail/detail",
 		"pages/contact/contact",
-		"pages/job/job"
+		"pages/job/job",
+		"pages/detail-xxzb/detail-xxzb",
+		"pages/detail-vs/detail-vs",
+		"pages/detail-yww/detail-yww",
+		"pages/detail-jjs/detail-jjs",
+		"pages/detail-jjl/detail-jjl",
+		"pages/detail-htgl/detail-htgl"
 	],
 	"window": {
 		"backgroundColor": "#FFFFFF",

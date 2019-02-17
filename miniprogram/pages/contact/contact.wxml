@@ -1,2 +1,23 @@
-<!--miniprogram/pages/contact/contact.wxml-->
-<text>miniprogram/pages/contact/contact.wxml</text>
+<view class='container'>
+	<view class='banner'>
+		<image src='/images/contactbanner.png' mode='widthFix'></image>
+	</view>
+	<view class='contactContent'>
+		<view class='contactItem'>
+			<text class='title'>联系电话：</text>
+			<text class='content'>135-3370-3710</text>
+		</view>
+		<view class='contactItem'>
+			<text class='title'>电子邮箱：</text>
+			<text class='content'>1216302941@qq.com</text>
+		</view>
+		<view class='contactItem'>
+			<text class='title'>微信号码：</text>
+			<text class='content'>qi-seven</text>
+		</view>
+		<view class='contactItem'>
+			<text class='title'>　Lofter：</text>
+			<text class='content'>http://3281683802.lofter.com</text>
+		</view>
+	</view>
+</view>
