@@ -9,7 +9,7 @@
 	<view class='bottom'>
 		<view class='listItem'>
 			<view class='title'>自我介绍：</view>
-			<view class='article special'>我是一名有4年工作经验的UI设计师，主要负责移动端的APP、H5和web端的管理系统、企业网站设计。在工作中，我培育了独特的设计意识，注重产品的用户体验，并且具有良好的逻辑思维和分析问题的能力，善于与人沟通，积极实现团队的整体目标。</view>
+			<view class='article special'>我是一名有4年工作经验的UI设计师，主要负责移动端的APP、H5和Web端的管理系统、企业网站设计。我在工作中培养了独特的设计意识，注重产品的用户体验，并且具有良好的逻辑思维和分析问题的能力。我善于与人沟通，积极实现团队的整体目标。</view>
 		</view>
 		<view class='listItem'>
 			<view class='title'>出生日期：</view>

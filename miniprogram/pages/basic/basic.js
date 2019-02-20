@@ -89,7 +89,7 @@ Page({
    },
 
    imgLoad(e) {
-      console.log(e.target.dataset.index)
+      // console.log(e.target.dataset.index)
       let $width = e.detail.width,
          $height = e.detail.height,
          ratio = $width / $height;

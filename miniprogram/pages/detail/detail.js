@@ -12,17 +12,37 @@ Page({
     * 生命周期函数--监听页面加载
     */
    onLoad: function(options) {
-      console.log(options.shortName)
+      switch (options.shortName) {
+         case "jjtg":
+            wx.setNavigationBarTitle({
+               title: '巨景投顾'
+            })
+            break;
+         case "ang":
+            wx.setNavigationBarTitle({
+               title: '爱牛股'
+            })
+            break;
+         case "jmf":
+            wx.setNavigationBarTitle({
+               title: '金蜜蜂官网'
+            })
+            break;
+         default:
+            wx.setNavigationBarTitle({
+               title: '设计'
+            })
+      }
+      // console.log(options.shortName)
       if (options.shortName == "jjtg" || options.shortName == "ang" || options.shortName == "jmf") {
          this.setData({
             mainImg: 'https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/' + options.shortName + '.png'
          })
+      } else {
+         this.setData({
+            customDetail: true
+         })
       }
-		else{
-			this.setData({
-				customDetail:true
-			})
-		}
    },
 
    /**

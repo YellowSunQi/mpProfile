@@ -6,8 +6,11 @@
       </view>
       <view class='right'>
          <view class='title'>前海易物电子商务有限公司</view>
-         <view class='time'>2018.04~至今 UI设计师</view>
-         <view class='content'>就职于创新设计中心 - UED部，负责易物网电商APP、H5和后台管理系统等相关及组件化设计工作。</view>
+         <view class='time'>2018.04~至今　UI设计师</view>
+         <view class='content'>就职于创新设计中心 - UED部，负责公司电商和直播APP、H5、小程序和后台管理系统等相关及组件化设计工作。</view>
+         <view class='content noMargin'>参与产品的规划过程，提供设计交互层面的专业意见。</view>
+         <view class='content noMargin'>基于对产品需求的良好理解，输出产品设计方案，并建立科学的设计规范。</view>
+			<view class='content noMargin'>配合开发跟进后续工作，推动产品落地。</view>
       </view>
    </view>
    <view class='jobItem'>
@@ -17,11 +20,9 @@
       </view>
       <view class='right'>
          <view class='title'>广州金蜜蜂科技有限公司</view>
-         <view class='time'>2016.07~2018.03 UI设计师</view>
+         <view class='time'>2016.07~2018.03　UI设计师</view>
          <view class='content'>就职于产品策划部 - 设计组，独立完成爱牛股APP、巨景投顾服务号、企业官网等相关的迭代和改版设计工作。</view>
-         <view class='content noMargin'>
-            制定公司PC端及移动应用端的设计标准。参与产品用户体验分析，从用户体验角度出发，提出最佳的交互设计和界面设计方案，持续改进产品。
-         </view>
+         <view class='content noMargin'>制定公司PC端及移动应用端的设计标准。参与产品用户体验分析，从用户体验角度出发，提出最佳的交互设计和界面设计方案，持续改进产品。</view>
          <view class='content noMargin'>负责公司品牌、运营相关设计，把控品牌传播一致性。</view>
       </view>
    </view>
@@ -32,14 +33,14 @@
       </view>
       <view class='right'>
          <view class='title'>广州云银信息科技有限公司</view>
-         <view class='time'>2015.05~2016.06 UI设计师</view>
+         <view class='time'>2015.05~2016.06　UI设计师</view>
          <view class='content'>就职于技术中心 - 设计组，负责公司PC端及移动应用端的视觉及创意设计。</view>
          <view class='content noMargin'>
             结合当下热点，对公司已有的线上网站或应用界面持续高效产出高质量的设计调整。
          </view>
          <view class='content noMargin'>
             根据产品开发需要，配合开发人员完成产品各部分设计的更新和修改。
-			</view>
+         </view>
       </view>
    </view>
 </view>
