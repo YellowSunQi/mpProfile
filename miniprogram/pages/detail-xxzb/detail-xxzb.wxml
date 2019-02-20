@@ -36,9 +36,6 @@
 			<view class='subTitle'>/ Page Design</view>
       </view>
 		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/content5.png' class='contentImg noMargin' mode='widthFix'></image>
-		<view class="contentText typeTwo">
-			为了切合动感和神秘的感觉，在一些特殊的页面中，使用了故障风和外太空的元素，根据不同的场景设计不同的表达形式，并且使用相同的色调。
-		</view>
 		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/content6.png' class='contentImg noMargin' mode='widthFix'></image>
    </view>
 </view>

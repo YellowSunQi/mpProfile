@@ -6,7 +6,7 @@
       <view class='title'>
          <image src='/images/titleIcon.png' class='titleIcon'></image>
 			<view class='titleName'>竞品分析</view>
-			<view class='subTitle'>/ Analysis For Competition</view>
+			<view class='subTitle'>/ Analysis For Competitor</view>
       </view>
 		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/ywwcontent1.png' class='contentImg noMargin' mode='widthFix'></image>
 			<view class="contentText">
@@ -16,7 +16,7 @@
 		 <view class='title'>
          <image src='/images/titleIcon.png' class='titleIcon'></image>
 			<view class='titleName'>产品定位</view>
-			<view class='subTitle'>/ product Positioning</view>
+			<view class='subTitle'>/ Product Positioning</view>
       </view>
 		<image src='https://uploadimg-1258426051.cos.ap-guangzhou.myqcloud.com/ywwcontent2.png' class='contentImg noMargin' mode='widthFix'></image>
 		<view class="contentText">

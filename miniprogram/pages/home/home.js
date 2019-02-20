@@ -16,10 +16,11 @@ Page({
    onLoad: function(options) {
       const app = getApp();
       const db = wx.cloud.database();
-      db.collection('bannerList').where({
-         _id: "banner"
+      db.collection('bannerList2').where({
+         _id: "banner2"
       }).get().then(res => {
          // banner图多于1张，展示指示器和自动播放
+         console.log(res)
          if (res.data[0].bannerList.length > 1) {
             this.setData({
                data: res.data[0],
