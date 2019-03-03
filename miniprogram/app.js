@@ -67,5 +67,13 @@ App({
             showCover: false
          }]
       }
-   }
+   },
+	onShareAppMessage(res) {
+		console.log(res);
+		return {
+			title: 'SevenPlanet',
+			path: 'pages/home/home',
+			imageUrl:'/images/shareImg.png'
+		}
+	}
 })
